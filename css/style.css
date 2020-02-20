@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0px; padding:0px;  font-family:open sans;}
+
+
+
+	
+ a{ text-decoration:none;}
+ 
+
+/***************scrollbar********************/
+
+::-webkit-scrollbar { background-color:#fff;}
+
+
+
+::-webkit-scrollbar-thumb { background:linear-gradient(#906, #606, #003)  ; border-radius: 6px;
+  
+}
+
+/***************scrollbar********************/
+
+
+
+/**********************header*********************/
+
+#header-1{ background:url(../images/bg.jpg) left top no-repeat; background-size:cover; width:100%; }
+
+
+
+
+.nav button{background-color:#e11070 !important; width:100%; line-height:30px; border:none; color:#fff;  font-size:18px; border-radius:5px; cursor:pointer; margin:20px 0 0 0;}
+.nav button i{ padding:0 10px 0 0;}
+
+.banner-text{ padding:200px 0px 200px 0; color:#fff; }
+.banner-text h2{ font-size:64px;}
+.banner-text p{ padding:20px 10% 0 10%; font-size:14px;}
+.banner-text a{ display:block; color:#fff; text-decoration:none;  background-color:#e11070; border:1px solid #e11070; padding:10px; width:180px; margin:20px auto 0 auto; transition:0.5;}
+.banner-text a:hover{ background:transparent; color:#fff; text-decoration:none; }
+
+/*****************************Service*****************************/
+
+.content-box{ background-color:#f4f3ff;  width:100%;}
+
+
+.heading{ padding:100px 0 0 0;}
+.heading h1{ text-align:center; }
+.heading h1::after{ content:''; background-color:#ff4d73; display:block; height:3px; width:170px; margin:20px auto 50px auto;}
+
+
+.services .icon{ text-align:center;  font-size:30px; margin:20px auto 20px  auto; padding:18px; height:70px; width:70px; border:1px solid #ff4d73; border-radius:50%; color:#ff4d73; transition:.5s; }
+.services p{ font-size:12px; margin-top:10px; color:#777; padding:20px;}
+.services span{ color:#ff4d73;}
+
+.services .col-sm-3:hover{ background-color:#ff4d73; cursor:pointer; color:#fff !important; box-shadow:-5px 5px 10px 0 rgba(0, 0, 0, 0.4); transition:.5s;}
+
+.services .col-sm-3:hover .icon{ color:#fff !important; border:#fff 1px solid;}
+.services .col-sm-3:hover p{ color:#fff;}
+
+.services .col-sm-3:hover span{ color:#fff;}
+
+
+
+
+/************************Features*******************************/
+
+.feature h2{ margin-top:130px;}
+
+.feature h2::after{ content:''; background-color:#ff4d73; display:block; height:3px; width:100px; margin:10px auto 50px auto; position:absolute; left:17px;}
+.feature ul{ margin:30px 0 0 20px; list-style:none;}
+.feature ul li{ line-height:40px; font-size:14px; position:relative;}
+.feature ul li::after{ content:''; height:7px; width:7px; background-color:#ff4d73; transform:rotate(45deg); position:absolute; top:17px; left:-25px;}
+
+.feature img{ margin:130px 0 0 0;}
+
+
+
+
+/*****************Footer******************/
+
+.footer-1{ }
+.footer-1 h1{ padding:100px 0 0 0; text-align:center; }
+.footer-1 h1::after{ content:''; background-color:#ff4d73; display:block; height:3px; width:170px; margin:20px auto 50px auto;}
+
+
+
+.contact-form{ padding:15px; }
+.form-control{ border-radius:0px imporant; border:none !important; box-shadow:none !important;}
+
+::placeholder{ font-size:12px;}
+
+.contact-form button{ border:none !important; background-color:#ff4d73; box-shadow:none !important; border-radius:0px;}
+
+
+.contact-info .follow{ background-color:#fff; padding:8px; margin:15px;}
+
+.follow ul{ margin:opx; padding:0px ; list-style:none; }
+.follow ul li{ display:inline; text-align:center;}
+.follow ul li a{ text-decoration:none; display:inline-block;}
+
+.contact-info .fa{ margin:10px; font-size:20px !important; color:#ff4d73 !important; font-weight:bold; padding-right:20px;}
+
+.contact-info span{ font-size:14px;}
+
+.copyright{ text-align:center; font-size:14px; margin:30px 0 0 0; padding:15px 0 15px 0; border-top:#ff4d73 1px solid;}
+.fa-heart-o{ color:red; font-size:17px;}
+
+
+
+
